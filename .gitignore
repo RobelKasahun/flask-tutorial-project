@@ -1,0 +1,17 @@
+# Ignore all file that you did not create
+
+# The following files will not be push to the github
+venv/
+
+*.pyc
+__pycache__/
+
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
